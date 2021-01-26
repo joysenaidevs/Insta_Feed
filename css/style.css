@@ -29,38 +29,102 @@
 .menu{
     height: 5em;
     width: 100%;
-    background-color: rgb(216, 200, 203);
+    /* background-color: rgb(216, 200, 203); */
 } 
 
-.menu2{
- 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
+
 
 .stories{
-    width: 100%;
-    height: auto;
-    background-color: black;
+    width: 610px;
+    height: 113px;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-sizing: border-box;
+    /* display: flex;    
+    position: ab0[solute; */
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
     
 }
 
-.contentStorie{
+.storie{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
+.publicacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
 
+.publicacoes{
+    width: 610px;
+    height: 166px;
+    background-color: rgb(209, 196, 196);
+    
+    
 
+}
+
+.publicacoes h1{
+    font-size: 18px;
+    
+}
+
+.imgPublicacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5em;
+}
+
+.pImg{
+    width: 610px;
+    height: 610px;
+    background-color: rgb(245, 255, 255);
+}
+.storie2{
+    display: flex;
+    padding-left: 2em;
+    flex-direction: column;
+    width: auto;
+    height: 50%;
+    
+    
+}
+
+.storie2 h1{
+    font-size: 16px;
+    display: inline-block;
+    
+       
+}
+
+.storie2 p{
+    color: rgb(189, 184, 184);
+    font-size: 16px;
+}
 
 .content li{
     color: black;
     text-decoration: none;
     text-transform: uppercase;
+    
+}
+
+.descricaoImagem{
+    background-color:#E0EEEE;
+    border:1px solid #EAEAEA;
+    box-sizing:border-box;
+    border-radius: 5px;
+    width:231px;
+    height:27px;
+    position: absolute;
     
 }
 
