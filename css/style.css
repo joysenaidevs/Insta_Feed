@@ -92,7 +92,7 @@
 .publicacoes{
     width: 610px;
     height: 166px;
-    background-color: rgb(209, 196, 196);
+    background-color: #FFFFFF;
     margin: auto;
     
     
@@ -182,14 +182,16 @@
 
 
 .digite input{
-    width: 190px;
+    width: 229px;
     height: 27px;
-    margin-top: 24px;
+    margin-top: 20px;
     margin-left: 27px;
+    background: #FAFAFA;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
     border-radius: 5px;
     font-size: 12px;
     font-weight: 600;
-    background: #FAFAFA;
     
 }
 
@@ -199,14 +201,21 @@
 }
 
 .escolher label{
-    width: 100px;
-    height: auto;
-    background-color:#D1D1D1;
-    margin-left: 10px;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: 600;
-    color: white;
+    display: block;
+  position: relative;
+  width: 157px;
+  height: 27px;
+  margin-left: 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background: #D1D1D1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7D7D7D;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform .2s ease-out;
   
 }
 
@@ -214,8 +223,8 @@
     width: 140px;
     height: 27px;
     background-color: #2686CC;
-    margin-top: 10px;
-    margin-left: 50px; /*50px;*/
+    margin-left: 20px;
+    margin-top: 15px;
     border-radius: 5px;
     font-size: 12px;
     font-weight: 600;
