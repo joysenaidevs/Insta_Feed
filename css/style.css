@@ -182,7 +182,7 @@
 
 
 .digite input{
-    width: 231px;
+    width: 190px;
     height: 27px;
     margin-top: 24px;
     margin-left: 27px;
@@ -192,4 +192,38 @@
     background: #FAFAFA;
     
 }
+
+
+.escolher input[type='file']{
+    display: none;
+}
+
+.escolher label{
+    width: 100px;
+    height: auto;
+    background-color:#D1D1D1;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+  
+}
+
+.conteudo button{
+    width: 140px;
+    height: 27px;
+    background-color: #2686CC;
+    margin-top: 10px;
+    margin-left: 50px; /*50px;*/
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+
+
 
